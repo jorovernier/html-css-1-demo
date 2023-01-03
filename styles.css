@@ -1,0 +1,48 @@
+
+img {
+    width: 300px;
+}
+
+p {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+span {
+    background-color: red;
+    margin: 5px;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+   background-image: url(https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+div > div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: solid black 5px;
+    margin: 0 auto;
+    padding: 5px;
+}
