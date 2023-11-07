@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+    background-color: yellow;
+    width: 200px;
+    text-align: center;
+
+}
+
+h1 {
+    color: brown;
+    letter-spacing: 5px;
+    font-size: 50px;
+    /* font-weight: ; */
+}
+
+img {
+    width: 30vw;
+    /* height: 30vh; */
+    border: 5px dotted purple;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+ul > li {
+    color: blue;
+}
+
+/* ul > a {
+    color: red
+} */
+
+ul a {
+    color: red;
+}
+
+body {
+    background-image: url('https://pbs.twimg.com/media/D9HFMigXsAAxHix?format=jpg&name=large');
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+* {
+    font-family: 'Jura', sans-serif;
+}
+
+button {
+    /* background-color: red; */
+    box-shadow: 3px 5px 10px 10px grey;
+}
