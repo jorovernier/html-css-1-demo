@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6 {
+    color: chocolate;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    color: coral;
+}
+
+body > a {
+    text-decoration: none;
+    color: brown;
+}
+
+img {
+    /* Pixels are an absolute unit, so they stay the same size. */
+    /* width: 400px; */
+
+    /* VW is based on the width of the view port. As the width gets smaller or bigger, so does the image. */
+    width: 40vw;
+
+    /* VH is based on the height of the view port. As the height gets smaller or bigger, so does the image. */
+    /* height: 40vh; */
+}
+
+button {
+    background-color: azure;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/04/52/31/46/360_F_452314635_HrDGMD7xZnr0zwn7JuqlVY9cVaUAFMGl.jpg');
+    background-size: auto;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
